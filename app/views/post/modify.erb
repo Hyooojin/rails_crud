@@ -1,0 +1,6 @@
+<h1>수정하기</h1>
+<form action="/post/update/<%=@show.id%>">
+    제목:<input type="text" name="title" value="<%= @show.title%>"><br/>
+    내용:<input type="text" name="content" value="<%= @show.content%>"><br/>
+    <input type="submit" value="제출">
+</form>
